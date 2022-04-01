@@ -10,4 +10,5 @@ En este repositorio se encontrarán ejercicios de python básico.
    - En esta sección se encuentran ejercicios de la declaración de variables y tipos de datos.
 2. [Condicionales](./conditionals/)
    - Aquí hay ejercicios del condicional if.
-3.
+3. [Ciclos](./loops/)
+   - Ciclo for.
