@@ -1,4 +1,5 @@
 #   Escribir un programa que muestre la sumatoria de todos los múltiplos de 7 encontrados entre el 0 y el 100.
+# Summing all the multiples of 7 from 0 to 100.
 
 total = 0
 
