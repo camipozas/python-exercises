@@ -23,7 +23,8 @@ promedio2 = (edad1 + edad2 + edad3 + edad4 + edad5)/5
 print('Promedio2:', promedio2)
 
 # desviación estándar
-desv_numerador = (edad1 - promedio1)**2 + (edad2 - promedio1)**2 + (edad3 - promedio1)**2 + (edad4 - promedio1)**2 + (edad5 - promedio1)**2 
+desv_numerador = (edad1 - promedio1)**2 + (edad2 - promedio1)**2 + \
+    (edad3 - promedio1)**2 + (edad4 - promedio1)**2 + (edad5 - promedio1)**2
 
 desv_estandar = (desv_numerador/5)**(1/2)
 print('Desviación estándar: ', desv_estandar)

@@ -4,6 +4,6 @@ clave_banco = 'banco123'
 primera_clave = (input('Ingrese primera clave: '))
 
 if (primera_clave == clave_banco):
-  print('Redireccionando al banco ...')
+    print('Redireccionando al banco ...')
 else:
-  print('Intente nuevamente')
+    print('Intente nuevamente')

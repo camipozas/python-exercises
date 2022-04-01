@@ -13,14 +13,14 @@ El programa deberá solicitar al usuario ingresar la cantidad de puntaje que pos
 puntos = int(input("Ingrese la cantidad de puntos que tienes: "))
 
 if (puntos > 5000):
-  print('Eres usuario Super VIP')
+    print('Eres usuario Super VIP')
 elif (puntos > 3500):
-  print('Eres usuario Golden VIP')
+    print('Eres usuario Golden VIP')
 elif (puntos > 1500):
-  print('Eres usuario Golden')
+    print('Eres usuario Golden')
 elif (puntos > 500):
-  print('Eres usuario mechón')
+    print('Eres usuario mechón')
 else:
-  print('Eres usuario quién te conoce')
+    print('Eres usuario quién te conoce')
 
 print('Fin')
