@@ -1,5 +1,6 @@
 '''Calculo discriminante'''
 
+# The code is a calculator of discriminant.
 a = int(input("Introducir valor de a:"))
 b = int(input("introducir valor de b:"))
 c = int(input("introducir valor de c:"))
