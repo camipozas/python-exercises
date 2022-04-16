@@ -12,3 +12,5 @@ En este repositorio se encontrarán ejercicios de python básico.
    - Aquí hay ejercicios del condicional if.
 3. [Ciclos](./loops/)
    - Ciclo for.
+4. [Pautas Pruebas](./test/)
+   - Aquí encontrarás pautas de pruebas simulacros y pruebas oficiales.
