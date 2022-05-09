@@ -14,6 +14,6 @@ En este repositorio se encontrarán ejercicios de python básico.
 4. [Ciclo While](./loops/while/)
 5. [Listas](./lists/)
 
-- [Proyectos en Python](./docs/python-projects)
+- [Proyectos en Python](./docs/python-projects.md)
 - [Pautas Pruebas](./test/)
    - Aquí encontrarás pautas de pruebas simulacros y pruebas oficiales.
