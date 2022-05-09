@@ -47,26 +47,3 @@ pip install [librería]
 pip install -r requirements.txt
 ```
 4. En caso de haber realizado el paso 2 y querer instalar más librerías. Repetir el paso 1 y posteriormente 2. 
-
-## 3. Docker
-Algunas veces por temas de compatibilidad o proyectos complicados con herramientas nativas. Es mejor trabajarlo con imágenes de Docker dado que no hay que preocuparse del entorno en el que se va a ejecturar el programa.
-
-### ¿Cómo realizar un Dockerfile?
-Este archivo está compuesto por una serie de comandos que te indicaré a continuación, y que son los responsables de la construcción de la imagen.
-
-1. `ADD` copia un archivo del host al contenedor.
-2. `CMD` el agumento que pasas por defecto.
-3. `ENTRYPOINT` el comando que se ejecuta por defecto al arrancar el contenedor.
-4. `ENV` permite declarar una variable de entorno en el contenedor.
-5. `EXPOSE` abre un puerto del contenedor.
-6. `FROM` indica la imagen base que utilizarás para construir tu imagen personalizada. Esta opción es obligatoria, y además debe ser la primera instrucción del Dockerfile.
-7. `MAINTAINER` es una valor opcional que te permite indicar quien es el que se encarga de mantener el Dockerfile.
-8. `ONBUILD` te permite indicar un comando que se ejecutará cuando tu imagen sea utilizada para crear otra imagen.
-9. `RUN` ejecuta un comando y guarda el resultado como una nueva capa.
-10. `USER` define el usuario por defecto del contenedor.
-11. `VOLUME` crea un volumen que es compartido por los diferentes contenedores o con el host
-12. `WORKDIR` define el directorio de trabajo para el contenedor.
-
-> Fuente: [Crea tus propias imágenes en Docker](https://atareao.es/tutorial/docker/crear-tus-propias-imagenes-docker/)
-### Documentación
-- [Crear imágenes en Docker](https://docs.docker.com/language/python/build-images/)
