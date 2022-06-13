@@ -13,6 +13,10 @@ En este repositorio se encontrarán ejercicios de python básico.
 3. [Ciclo For](./loops/for/)
 4. [Ciclo While](./loops/while/)
 5. [Listas](./lists/)
+6. [Ciclos anidados](./loops/nested%20loops/)
+7. [Numpy](./numpy/)
+8. [Funciones](./functions/)
+9. [Pandas](./pandas/)
 
 - [Proyectos en Python](./docs/python-projects.md)
 - [Pautas Pruebas](./test/)
